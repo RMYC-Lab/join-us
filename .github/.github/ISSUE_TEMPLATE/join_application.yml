@@ -1,0 +1,41 @@
+name: "🎉加入 RMYC-Lab"
+description: "欢迎您加入我们!"
+title: "[加入申请]"
+labels: ["invitation"]
+assignees:
+  - Cranyozen
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你填写加入该组织的表单
+        **所有内容均可以用中文回答**
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 你的联系方式，将在技术审查环节使用，QQ 号码最佳
+      placeholder: 例如. QQ 11451419
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你对 RMYC 比赛有什么想法
+      value: "..."
+    validations:
+      required: false
+  - type: textarea
+    id: hobby
+    attributes:
+      label: 你在 RMYC 比赛中兴趣/负责的方向
+      value: "..."
+    validations:
+      required: false
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: 对于你技术的补充性资料
+      value: "..."
+    validations:
+      required: false
